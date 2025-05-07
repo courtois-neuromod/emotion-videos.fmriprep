@@ -13,3 +13,8 @@
 	url = /lustre03/project/rrg-pbellec/ria-beluga/alias/cneuromod.anat.smriprep
 	datalad-id = f3ef9683-0a58-4d2b-b4eb-d33d8fc3fd2b
 	datalad-url = "ria+file:///lustre03/project/rrg-pbellec/ria-beluga#~cneuromod.anat.smriprep"
+[submodule "sourcedata/cneuromod.emotion-videos"]
+	path = sourcedata/cneuromod.emotion-videos
+	url = /lustre03/project/rrg-pbellec/ria-beluga/alias/cneuromod.emotion-videos.raw
+	datalad-id = be554e46-3ca3-43a8-99c5-4b7a424fd499
+	datalad-url = "ria+file:///lustre03/project/rrg-pbellec/ria-beluga#~cneuromod.emotion-videos.raw"

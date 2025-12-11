@@ -18,3 +18,8 @@
 	url = /lustre03/project/rrg-pbellec/ria-beluga/alias/cneuromod.emotion-videos.raw
 	datalad-id = be554e46-3ca3-43a8-99c5-4b7a424fd499
 	datalad-url = "ria+file:///lustre03/project/rrg-pbellec/ria-beluga#~cneuromod.emotion-videos.raw"
+[submodule "bids-containers"]
+	path = bids-containers
+	url = https://gitlab.unf-montreal.ca/ni-dataops/bids-containers
+	datalad-id = b8a017e8-1b6f-4cfe-95ea-cdde7228e9c3
+	datalad-url = https://gitlab.unf-montreal.ca/ni-dataops/bids-containers

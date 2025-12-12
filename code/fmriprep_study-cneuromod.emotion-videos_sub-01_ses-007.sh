@@ -23,7 +23,7 @@ cd $LOCAL_DATASET
 datalad get -s ria-beluga-storage -J 4 -n -r -R1 . # get sourcedata/* containers
 datalad get -s ria-beluga-storage -J 4 -n -r sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage,MNI152NLin6Asym}
 if [ -d sourcedata/smriprep ] ; then
-    datalad get -n sourcedata/smriprep sourcedata/smriprep/sourcedata/freesurfer
+    datalad get -n sourcedata/smriprep sourcedata/smriprep/sourcedata/*freesurfer*
 fi
 git submodule foreach --recursive git annex dead here
 git checkout -b $SLURM_JOB_NAME
@@ -37,7 +37,7 @@ git submodule foreach  --recursive bash -c "git-annex enableremote ria-rorqual-s
 git submodule foreach  --recursive bash -c "git-annex enableremote ria-beluga-storage-local || true"
 datalad get -J 4 -r sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage,MNI152NLin6Asym}
 
-datalad containers-run -m 'fMRIPrep_sub-01/ses-007' -n bids-fmriprep --expand both --input sourcedata/templateflow/tpl-MNI152NLin2009cAsym/ --input sourcedata/templateflow/tpl-OASIS30ANTs/ --input sourcedata/templateflow/tpl-fsLR/ --input sourcedata/templateflow/tpl-fsaverage/ --input sourcedata/templateflow/tpl-MNI152NLin6Asym/ --output . --input 'sourcedata/cneuromod.emotion-videos/sub-01/ses-007/fmap/' --input 'sourcedata/cneuromod.emotion-videos/sub-01/ses-007/func/*part-mag*'  --input 'sourcedata/smriprep/sub-01/anat/' --input sourcedata/smriprep/sourcedata/freesurfer/fsaverage/ --input sourcedata/smriprep/sourcedata/freesurfer/sub-01/ -- -w ./workdir --participant-label 01 --session-label 007 --derivatives sourcedata/smriprep --fs-subjects-dir sourcedata/smriprep/sourcedata/freesurfer --bids-filter-file code/fmriprep_study-cneuromod.emotion-videos_sub-01_ses-007_bids_filters.json --output-layout bids --ignore slicetiming --use-syn-sdc warn --me-output-echos --output-spaces MNI152NLin2009cAsym T1w:res-iso2mm --cifti-output 91k --notrack --write-graph --skip_bids_validation --omp-nthreads 8 --nprocs 12 --mem_mb 45056 --fs-license-file code/freesurfer.license  --track-carbon sourcedata/cneuromod.emotion-videos ./ participant 
+datalad containers-run -m 'fMRIPrep_sub-01/ses-007' -n bids-fmriprep --expand both --input sourcedata/templateflow/tpl-MNI152NLin2009cAsym/ --input sourcedata/templateflow/tpl-OASIS30ANTs/ --input sourcedata/templateflow/tpl-fsLR/ --input sourcedata/templateflow/tpl-fsaverage/ --input sourcedata/templateflow/tpl-MNI152NLin6Asym/ --output . --input 'sourcedata/cneuromod.emotion-videos/sub-01/ses-007/fmap/' --input 'sourcedata/cneuromod.emotion-videos/sub-01/ses-007/func/*part-mag*'  --input 'sourcedata/smriprep/sub-01/anat/' --input sourcedata/smriprep/sourcedata/*freesurfer*/fsaverage/ --input sourcedata/smriprep/sourcedata/*freesurfer*/sub-01/ -- -w ./workdir --participant-label 01 --session-label 007 --derivatives sourcedata/smriprep --fs-subjects-dir sourcedata/smriprep/sourcedata/*freesurfer* --bids-filter-file code/fmriprep_study-cneuromod.emotion-videos_sub-01_ses-007_bids_filters.json --output-layout bids --ignore slicetiming --use-syn-sdc warn --me-output-echos --output-spaces MNI152NLin2009cAsym T1w:res-iso2mm --cifti-output 91k --notrack --write-graph --skip_bids_validation --omp-nthreads 8 --nprocs 12 --mem_mb 45056 --fs-license-file code/freesurfer.license  --track-carbon sourcedata/cneuromod.emotion-videos ./ participant 
 fmriprep_exitcode=$?
 
 flock --verbose /project/rrg-pbellec/ria-rorqual/alias/cneuromod.emotion-videos.fmriprep/.datalad_lock datalad push -d ./ --to origin

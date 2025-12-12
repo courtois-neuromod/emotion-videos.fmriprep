@@ -18,3 +18,8 @@
 	url = https://gitlab.unf-montreal.ca/ni-dataops/bids-containers
 	datalad-id = b8a017e8-1b6f-4cfe-95ea-cdde7228e9c3
 	datalad-url = https://gitlab.unf-montreal.ca/ni-dataops/bids-containers
+[submodule "sourcedata/smriprep"]
+	path = sourcedata/smriprep
+	url = git@github.com:courtois-neuromod/smriprep.longitudinal.git
+	datalad-id = 428cc920-6975-4b3f-82c6-a078ed1fa8f8
+	datalad-url = git@github.com:courtois-neuromod/smriprep.longitudinal.git

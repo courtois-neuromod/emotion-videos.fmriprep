@@ -2,4 +2,4 @@
 	id = 583d4762-704a-462b-a71e-9844982d3c9b
 [datalad "containers.bids-fmriprep"]
 	image = bids-containers/images/fmriprep.sif
-	cmdexec = {img_dspath}/containers/scripts/singularity_cmd run -B code/fieldmaps.py:/app/.pixi/envs/fmriprep/lib/python3.12/site-packages/sdcflows/fieldmaps.py -B code/base.py:/app/.pixi/envs/fmriprep/lib/python3.12/site-packages/fmriprep/workflows/base.py {img} {cmd}
+	cmdexec = {img_dspath}/containers/scripts/singularity_cmd run -B code/bids.py:/app/.pixi/envs/fmriprep/lib/python3.12/site-packages/fmriprep/interfaces/bids.py -B code/fieldmaps.py:/app/.pixi/envs/fmriprep/lib/python3.12/site-packages/sdcflows/fieldmaps.py -B code/base.py:/app/.pixi/envs/fmriprep/lib/python3.12/site-packages/fmriprep/workflows/base.py {img} {cmd}

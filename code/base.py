@@ -397,10 +397,7 @@ It is released under the [CC0]\
         ]),
         (bidssrc, src_file, [('out_dict', 'bids_info')]),
         (src_file, bids_info, [('source_file', 'in_file')]),
-        (bids_info, create_fs_id, [
-            ('subject', 'subject_id'),
-            ('session', 'session_id'),
-        ]),
+        (bids_info, create_fs_id, [('subject', 'subject_id')]),
         (create_fs_id, anat_fit_wf, [('subject_id', 'inputnode.subject_id')]),
         # Reporting connections
         (inputnode, summary, [('subjects_dir', 'subjects_dir')]),
@@ -410,6 +407,13 @@ It is released under the [CC0]\
         (about, ds_report_about, [('out_report', 'in_file')]),
     ])  # fmt:skip
 
+    if config.workflow.subject_anatomical_reference == 'sessionwise':
+        workflow.connect([
+            (bids_info, create_fs_id, [('session', 'session_id')]),
+        ])  # fmt:skip
+    
+
+    
     # Set up the template iterator once, if used
     template_iterator_wf = None
     select_MNI2009c_xfm = None

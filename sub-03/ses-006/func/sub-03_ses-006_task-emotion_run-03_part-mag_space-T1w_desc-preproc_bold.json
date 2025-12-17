@@ -1,0 +1,16 @@
+{
+  "DelayTime": 0.09499999999999975,
+  "RepetitionTime": 2.65,
+  "SkullStripped": true,
+  "SliceTimingCorrected": false,
+  "Sources": [
+    "bids:raw:sub-03/ses-006/func/sub-03_ses-006_task-emotion_run-03_echo-1_part-mag_bold.nii.gz",
+    "bids:raw:sub-03/ses-006/func/sub-03_ses-006_task-emotion_run-03_echo-2_part-mag_bold.nii.gz",
+    "bids:raw:sub-03/ses-006/func/sub-03_ses-006_task-emotion_run-03_echo-3_part-mag_bold.nii.gz",
+    "bids::sub-03/ses-006/func/sub-03_ses-006_task-emotion_run-03_part-mag_desc-coreg_boldref.nii.gz",
+    "bids::sub-03/ses-006/func/sub-03_ses-006_task-emotion_run-03_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt",
+    "bids::sub-03/ses-006/func/sub-03_ses-006_task-emotion_run-03_from-boldref_to-sub03ses006taskemotionrun03_mode-image_desc-fmap_xfm.txt",
+    "bids::sub-03/ses-006/func/sub-03_ses-006_task-emotion_run-03_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt"
+  ],
+  "TaskName": "emotion"
+}

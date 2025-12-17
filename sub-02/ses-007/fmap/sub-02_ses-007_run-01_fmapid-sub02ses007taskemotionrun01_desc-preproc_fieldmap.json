@@ -1,0 +1,13 @@
+{
+  "AnatomicalReference": "sub-02_ses-007_run-01_fmapid-sub02ses007taskemotionrun01_desc-magnitude_fieldmap.nii.gz",
+  "AssociatedCoefficients": [
+    "sub-02_ses-007_run-01_fmapid-sub02ses007taskemotionrun01_desc-coeff_fieldmap.nii.gz"
+  ],
+  "B0FieldIdentifier": "sub_02_ses_007_task_emotion_run_01",
+  "IntendedFor": [],
+  "RawSources": [
+    "/localscratch/bpinsard.4399941.0/fmriprep_studycneuromod.emotionvideos_sub02_ses007.job/sourcedata/cneuromod.emotion-videos/sub-02/ses-007/func/sub-02_ses-007_task-emotion_run-01_echo-1_part-mag_sbref.nii.gz",
+    "/localscratch/bpinsard.4399941.0/fmriprep_studycneuromod.emotionvideos_sub02_ses007.job/sourcedata/cneuromod.emotion-videos/sub-02/ses-007/fmap/sub-02_ses-007_acq-sbrefEcho1_dir-AP_run-01_epi.nii.gz"
+  ],
+  "Units": "Hz"
+}

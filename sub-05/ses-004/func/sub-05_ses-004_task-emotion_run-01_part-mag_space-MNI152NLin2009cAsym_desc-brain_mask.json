@@ -1,0 +1,13 @@
+{
+  "Sources": [
+    "bids:raw:sub-05/ses-004/func/sub-05_ses-004_task-emotion_run-01_echo-1_part-mag_bold.nii.gz",
+    "bids:raw:sub-05/ses-004/func/sub-05_ses-004_task-emotion_run-01_echo-2_part-mag_bold.nii.gz",
+    "bids:raw:sub-05/ses-004/func/sub-05_ses-004_task-emotion_run-01_echo-3_part-mag_bold.nii.gz",
+    "bids::sub-05/ses-004/func/sub-05_ses-004_task-emotion_run-01_part-mag_desc-coreg_boldref.nii.gz",
+    "bids::sub-05/ses-004/func/sub-05_ses-004_task-emotion_run-01_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt",
+    "bids::sub-05/ses-004/func/sub-05_ses-004_task-emotion_run-01_from-boldref_to-sub05ses004taskemotionrun01_mode-image_desc-fmap_xfm.txt",
+    "bids::sub-05/ses-004/func/sub-05_ses-004_task-emotion_run-01_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt",
+    "bids:smriprep:sub-05/anat/sub-05_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5",
+    "bids:templateflow:tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz"
+  ]
+}

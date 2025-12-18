@@ -1,0 +1,29 @@
+{
+  "AnatomicalReference": "sub-01_ses-007_fmapid-sub01ses007taskemotionrun05_desc-magnitude_fieldmap.nii.gz",
+  "AssociatedCoefficients": [
+    "sub-01_ses-007_fmapid-sub01ses007taskemotionrun05_desc-coeff_fieldmap.nii.gz"
+  ],
+  "B0FieldIdentifier": "sub_01_ses_007_task_emotion_run_05",
+  "IntendedFor": [
+    "ses-007/func/sub-01_ses-007_task-emotion_run-01_echo-1_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-01_echo-2_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-01_echo-3_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-02_echo-1_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-02_echo-2_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-02_echo-3_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-03_echo-1_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-03_echo-2_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-03_echo-3_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-04_echo-1_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-04_echo-2_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-04_echo-3_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-05_echo-1_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-05_echo-2_part-mag_bold.nii.gz",
+    "ses-007/func/sub-01_ses-007_task-emotion_run-05_echo-3_part-mag_bold.nii.gz"
+  ],
+  "RawSources": [
+    "/localscratch/bpinsard.4399933.0/fmriprep_studycneuromod.emotionvideos_sub01_ses007.job/sourcedata/cneuromod.emotion-videos/sub-01/ses-007/func/sub-01_ses-007_task-emotion_run-05_echo-1_part-mag_sbref.nii.gz",
+    "/localscratch/bpinsard.4399933.0/fmriprep_studycneuromod.emotionvideos_sub01_ses007.job/sourcedata/cneuromod.emotion-videos/sub-01/ses-007/fmap/sub-01_ses-007_acq-sbrefEcho1_dir-AP_run-01_epi.nii.gz"
+  ],
+  "Units": "Hz"
+}

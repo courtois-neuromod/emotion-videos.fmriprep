@@ -1,0 +1,14 @@
+{
+  "EstimationAlgorithm": "monoexponential decay model",
+  "EstimationReference": "doi:10.1002/mrm.20900",
+  "Sources": [
+    "bids:raw:sub-01/ses-007/func/sub-01_ses-007_task-emotion_run-01_echo-1_part-mag_bold.nii.gz",
+    "bids:raw:sub-01/ses-007/func/sub-01_ses-007_task-emotion_run-01_echo-2_part-mag_bold.nii.gz",
+    "bids:raw:sub-01/ses-007/func/sub-01_ses-007_task-emotion_run-01_echo-3_part-mag_bold.nii.gz",
+    "bids::sub-01/ses-007/func/sub-01_ses-007_task-emotion_run-01_part-mag_desc-coreg_boldref.nii.gz",
+    "bids::sub-01/ses-007/func/sub-01_ses-007_task-emotion_run-01_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt",
+    "bids::sub-01/ses-007/func/sub-01_ses-007_task-emotion_run-01_from-boldref_to-sub01ses007taskemotionrun01_mode-image_desc-fmap_xfm.txt",
+    "bids::sub-01/ses-007/func/sub-01_ses-007_task-emotion_run-01_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt"
+  ],
+  "Units": "s"
+}

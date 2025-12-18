@@ -1,0 +1,32 @@
+{
+  "AnatomicalReference": "sub-06_ses-005_fmapid-sub06ses005taskemotionrun06_desc-magnitude_fieldmap.nii.gz",
+  "AssociatedCoefficients": [
+    "sub-06_ses-005_fmapid-sub06ses005taskemotionrun06_desc-coeff_fieldmap.nii.gz"
+  ],
+  "B0FieldIdentifier": "sub_06_ses_005_task_emotion_run_06",
+  "IntendedFor": [
+    "ses-005/func/sub-06_ses-005_task-emotion_run-01_echo-1_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-01_echo-2_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-01_echo-3_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-02_echo-1_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-02_echo-2_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-02_echo-3_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-03_echo-1_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-03_echo-2_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-03_echo-3_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-04_echo-1_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-04_echo-2_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-04_echo-3_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-05_echo-1_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-05_echo-2_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-05_echo-3_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-06_echo-1_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-06_echo-2_part-mag_bold.nii.gz",
+    "ses-005/func/sub-06_ses-005_task-emotion_run-06_echo-3_part-mag_bold.nii.gz"
+  ],
+  "RawSources": [
+    "/localscratch/bpinsard.4399959.0/fmriprep_studycneuromod.emotionvideos_sub06_ses005.job/sourcedata/cneuromod.emotion-videos/sub-06/ses-005/func/sub-06_ses-005_task-emotion_run-06_echo-1_part-mag_sbref.nii.gz",
+    "/localscratch/bpinsard.4399959.0/fmriprep_studycneuromod.emotionvideos_sub06_ses005.job/sourcedata/cneuromod.emotion-videos/sub-06/ses-005/fmap/sub-06_ses-005_acq-sbrefEcho1_dir-AP_run-01_epi.nii.gz"
+  ],
+  "Units": "Hz"
+}

@@ -1,18 +1,16 @@
 [submodule "sourcedata/templateflow"]
 	path = sourcedata/templateflow
-	url = /lustre03/project/rrg-pbellec/ria-beluga/alias/templateflow
+	url = https://github.com/templateflow/templateflow
 	datalad-id = c79c47b6-d0fb-11e8-aa11-64006a8a730f
-	datalad-url = "ria+file:///lustre03/project/rrg-pbellec/ria-beluga#~templateflow"
 [submodule "containers"]
 	path = containers
-	url = /lustre03/project/rrg-pbellec/ria-beluga/alias/repronim/containers
+	url = https://github.com/ReproNim/containers
 	datalad-id = b02e63c2-62c1-11e9-82b0-52540040489c
-	datalad-url = "ria+file:///lustre03/project/rrg-pbellec/ria-beluga#~repronim/containers"
 [submodule "sourcedata/cneuromod.emotion-videos"]
 	path = sourcedata/cneuromod.emotion-videos
-	url = /lustre03/project/rrg-pbellec/ria-beluga/alias/cneuromod.emotion-videos.raw
+	url = git@github.com:courtois-neuromod/emotion-videos.git
 	datalad-id = be554e46-3ca3-43a8-99c5-4b7a424fd499
-	datalad-url = "ria+file:///lustre03/project/rrg-pbellec/ria-beluga#~cneuromod.emotion-videos.raw"
+	datalad-url = https://github.com/courtois-neuromod/emotion-videos
 [submodule "bids-containers"]
 	path = bids-containers
 	url = https://gitlab.unf-montreal.ca/ni-dataops/bids-containers

@@ -1,0 +1,116 @@
+[environment]
+cpu_count = 192
+exec_env = "singularity"
+free_mem = 539.6
+overcommit_policy = "heuristic"
+overcommit_limit = "50%"
+nipype_version = "1.10.0"
+templateflow_version = "25.0.4"
+version = "25.2.3"
+
+[execution]
+bids_dir = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job/sourcedata/cneuromod.emotion-videos"
+bids_database_dir = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job/workdir/20251217-180803_e63f5e07-ef57-4d34-8885-a5c4809a30f1/bids_db"
+bids_description_hash = "a79413618964871e98a3d75eb666ed36a29b9efef7fdb86462cdd9d93de47005"
+boilerplate_only = false
+sloppy = false
+debug = []
+fmriprep_dir = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job"
+fs_license_file = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job/code/freesurfer.license"
+fs_subjects_dir = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job/sourcedata/smriprep/sourcedata/cneuromod.anat.freesurfer_longitudinal"
+layout = "BIDS Layout: ...edata/cneuromod.emotion-videos | Subjects: 1 | Sessions: 7 | Runs: 6"
+log_dir = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job/logs"
+log_level = 25
+low_mem = false
+md_only_boilerplate = false
+notrack = true
+track_carbon = true
+country_code = "CAN"
+output_dir = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job"
+me_output_echos = true
+aggr_ses_reports = 4
+output_layout = "bids"
+output_spaces = "MNI152NLin2009cAsym:res-native T1w:res-iso2mm"
+reports_only = false
+run_uuid = "20251217-180803_e63f5e07-ef57-4d34-8885-a5c4809a30f1"
+processing_groups = [ "sub-02_ses-004",]
+participant_label = [ "02",]
+session_label = [ "004",]
+templateflow_home = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job/sourcedata/templateflow"
+work_dir = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job/workdir"
+write_graph = true
+
+[workflow]
+anat_only = false
+bold2anat_dof = 6
+bold2anat_init = "t1w"
+cifti_output = "91k"
+fmap_bspline = false
+force_syn = false
+hires = true
+fs_no_resume = true
+ignore = [ "slicetiming",]
+force = []
+level = "full"
+run_msmsulc = true
+medial_surface_nan = false
+project_goodvoxels = false
+regressors_all_comps = false
+regressors_dvars_th = 1.5
+regressors_fd_th = 0.5
+run_reconall = true
+skull_strip_fixed_seed = false
+skull_strip_template = "OASIS30ANTs"
+skull_strip_t1w = "force"
+slice_time_ref = 0.5
+spaces = "MNI152NLin2009cAsym:res-native T1w:res-iso2mm MNI152NLin6Asym:res-2"
+subject_anatomical_reference = "first-lex"
+use_syn_sdc = "warn"
+me_t2s_fit_method = "curvefit"
+
+[nipype]
+crashfile_format = "txt"
+get_linked_libs = false
+memory_gb = 45.056
+nprocs = 12
+omp_nthreads = 8
+plugin = "MultiProc"
+remove_unnecessary_outputs = true
+resource_monitor = false
+stop_on_first_crash = true
+
+[seeds]
+master = 53600
+ants = 17858
+numpy = 9413
+
+[execution.derivatives]
+smriprep = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job/sourcedata/smriprep"
+
+[execution.dataset_links]
+raw = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job/sourcedata/cneuromod.emotion-videos"
+templateflow = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job/sourcedata/templateflow"
+smriprep = "/localscratch/bpinsard.4399938.0/fmriprep_studycneuromod.emotionvideos_sub02_ses004.job/sourcedata/smriprep"
+
+[nipype.plugin_args]
+maxtasksperchild = 1
+raise_insufficient = false
+
+[execution.bids_filters.t1w]
+reconstruction = "<Query.NONE: 1>"
+acquisition = "<Query.NONE: 1>"
+
+[execution.bids_filters.t2w]
+reconstruction = "<Query.NONE: 1>"
+acquisition = "<Query.NONE: 1>"
+
+[execution.bids_filters.bold]
+session = [ "004",]
+part = "mag"
+
+[execution.bids_filters.sbref]
+session = [ "004",]
+part = "mag"
+
+[execution.bids_filters.fmap]
+session = [ "004",]

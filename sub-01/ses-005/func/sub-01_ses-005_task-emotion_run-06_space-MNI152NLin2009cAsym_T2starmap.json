@@ -1,0 +1,16 @@
+{
+  "EstimationAlgorithm": "monoexponential decay model",
+  "EstimationReference": "doi:10.1002/mrm.20900",
+  "Sources": [
+    "bids:raw:sub-01/ses-005/func/sub-01_ses-005_task-emotion_run-06_echo-1_part-mag_bold.nii.gz",
+    "bids:raw:sub-01/ses-005/func/sub-01_ses-005_task-emotion_run-06_echo-2_part-mag_bold.nii.gz",
+    "bids:raw:sub-01/ses-005/func/sub-01_ses-005_task-emotion_run-06_echo-3_part-mag_bold.nii.gz",
+    "bids::sub-01/ses-005/func/sub-01_ses-005_task-emotion_run-06_part-mag_desc-coreg_boldref.nii.gz",
+    "bids::sub-01/ses-005/func/sub-01_ses-005_task-emotion_run-06_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt",
+    "bids::sub-01/ses-005/func/sub-01_ses-005_task-emotion_run-06_from-boldref_to-sub01ses005taskemotionrun06_mode-image_desc-fmap_xfm.txt",
+    "bids::sub-01/ses-005/func/sub-01_ses-005_task-emotion_run-06_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt",
+    "bids:smriprep:sub-01/anat/sub-01_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5",
+    "bids:templateflow:tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz"
+  ],
+  "Units": "s"
+}

@@ -1,0 +1,23 @@
+[submodule "sourcedata/templateflow"]
+	path = sourcedata/templateflow
+	url = https://github.com/templateflow/templateflow
+	datalad-id = c79c47b6-d0fb-11e8-aa11-64006a8a730f
+[submodule "containers"]
+	path = containers
+	url = https://github.com/ReproNim/containers
+	datalad-id = b02e63c2-62c1-11e9-82b0-52540040489c
+[submodule "sourcedata/cneuromod.emotion-videos"]
+	path = sourcedata/cneuromod.emotion-videos
+	url = git@github.com:courtois-neuromod/emotion-videos.git
+	datalad-id = be554e46-3ca3-43a8-99c5-4b7a424fd499
+	datalad-url = https://github.com/courtois-neuromod/emotion-videos
+[submodule "bids-containers"]
+	path = bids-containers
+	url = https://gitlab.unf-montreal.ca/ni-dataops/bids-containers
+	datalad-id = b8a017e8-1b6f-4cfe-95ea-cdde7228e9c3
+	datalad-url = https://gitlab.unf-montreal.ca/ni-dataops/bids-containers
+[submodule "sourcedata/smriprep"]
+	path = sourcedata/smriprep
+	url = git@github.com:courtois-neuromod/smriprep.longitudinal.git
+	datalad-id = 428cc920-6975-4b3f-82c6-a078ed1fa8f8
+	datalad-url = git@github.com:courtois-neuromod/smriprep.longitudinal.git

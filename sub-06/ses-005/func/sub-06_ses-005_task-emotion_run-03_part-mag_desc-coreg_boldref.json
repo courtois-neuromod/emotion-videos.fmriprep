@@ -1,0 +1,7 @@
+{
+  "Sources": [
+    "bids:raw:sub-06/ses-005/func/sub-06_ses-005_task-emotion_run-03_echo-1_part-mag_sbref.nii.gz",
+    "bids::sub-06/ses-005/func/sub-06_ses-005_task-emotion_run-03_from-boldref_to-sub06ses005taskemotionrun03_mode-image_desc-fmap_xfm.txt",
+    "bids::sub-06/ses-005/fmap/sub-06_ses-005_fmapid-sub06ses005taskemotionrun03_desc-coeff_fieldmap.nii.gz"
+  ]
+}
